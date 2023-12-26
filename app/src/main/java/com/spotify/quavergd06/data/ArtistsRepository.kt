@@ -4,7 +4,7 @@ import com.spotify.quavergd06.api.APIError
 import com.spotify.quavergd06.api.SpotifyApiService
 import com.spotify.quavergd06.data.api.ArtistItem
 import com.spotify.quavergd06.data.model.Artist
-import com.spotify.quavergd06.data.model.Track
+
 import com.spotify.quavergd06.database.dao.ArtistDAO
 import java.sql.RowId
 
