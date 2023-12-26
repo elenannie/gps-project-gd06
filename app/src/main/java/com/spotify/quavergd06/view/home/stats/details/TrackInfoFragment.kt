@@ -82,7 +82,7 @@ class TrackInfoFragment : Fragment() {
 
     private fun setButtonListener() {
         binding.artistName.setOnClickListener {
-            homeViewModel.navigateFromTrackDetailToArtistDetail(_artist!!)
+            homeViewModel.navigateFromTrackDetailToArtistDetail(_artist)
         }
     }
 
