@@ -29,24 +29,4 @@ class Converters {
         return StringListWrapper(ArrayList(images.split(",")))
     }
 
-//    @TypeConverter
-//    fun stringToArrayList(images: String): ArrayList<String>? {
-//        val listType = object : TypeToken<ArrayList<String>>() {}.type
-//        return Gson().fromJson(images, listType)
-//    }
-
-//    @TypeConverter
-//    fun stringToArrayList(images: String): ArrayList<String>? {
-//        return ArrayList(images.split(","))
-//    }
-
-//    @TypeConverter
-//    fun fromGenres(genres: ArrayList<String>): String? {
-//        return genres.joinToString(",")
-//    }
-//
-//    @TypeConverter
-//    fun toGenres(genres: String): ArrayList<String>? {
-//        return ArrayList(genres.split(","))
-//    }
 }
